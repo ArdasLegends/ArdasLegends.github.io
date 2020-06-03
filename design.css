@@ -8,7 +8,7 @@ and open the template in the editor.
     Author     : Anedhel
 */
 
-/* Allgemeines Seitendesign */
+/* overall page design */
 header{
     text-align: center;
     text-shadow: 1px 0.5px grey;
@@ -17,14 +17,14 @@ header{
     background-color: #cccccc;
 }
 
-/*Dropdown Button Hobbies */
+/*dropdown Button*/
 .dropheadline {
-    /* Umliegende Class des Dropbuttons */
+    /* General class of the drop button */
     position: relative;
     display: inline-block;
 }
 .dropcontent {
-    /* Inhalt des Drops */
+    /* content of the drop */
     display: none;
     position: absolute;
     background-color: #bbbbbb;
@@ -33,26 +33,26 @@ header{
     z-index: 1;
 }
 .dropcontent a {
-    /* Links im Drop */
+    /* links in the drop */
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
 .dropcontent a:hover {
-    /* Änderung der Drop links bei hover */
+    /* changes of the links in the drop upon hovering over them */
     background-color: #aaaaaa
 }
-.dropheadline:hover .hobbybtn {
-    /* Änderung des Buttons bei hover */
+.dropheadline:hover .dropheadline {
+    /* changes to the dropdown button upon hover */
     background-color: #bbbbbb;
 }
 .dropheadline:hover .dropcontent {
-    /* Anzeige des Dropcontents wenn hover über Button */
+    /* showing of the dropcontent for hovering */
     display: block;
 }
 .dropheadlinebtn{
-    /* Button Hobbies */
+    /* button for the dropdown */
     background-color: #cccccc;
     border: none;
     font-style: italic;
@@ -62,7 +62,7 @@ header{
     font-weight: bold;
     font-family: times;
 }
-/* Ende Dropdown Button Hobbies */
+/* End of the button design */
 
 /*Dropdown Button Startseite */
 .dropindex{
@@ -89,7 +89,7 @@ header{
     font-weight: bold;
     font-family: times;
 }
-/* Ende Dropdown Button Startseite */
+/* END design mainpage button */
 main{
     text-align: center; 
     font-family:times;
