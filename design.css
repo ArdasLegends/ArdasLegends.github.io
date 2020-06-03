@@ -18,7 +18,7 @@ header{
 }
 
 /*Dropdown Button Hobbies */
-.drophobbies {
+.dropheadline {
     /* Umliegende Class des Dropbuttons */
     position: relative;
     display: inline-block;
@@ -43,11 +43,11 @@ header{
     /* Änderung der Drop links bei hover */
     background-color: #aaaaaa
 }
-.drophobbies:hover .hobbybtn {
+.dropheadline:hover .hobbybtn {
     /* Änderung des Buttons bei hover */
     background-color: #bbbbbb;
 }
-.drophobbies:hover .dropcontent {
+.dropheadline:hover .dropcontent {
     /* Anzeige des Dropcontents wenn hover über Button */
     display: block;
 }
