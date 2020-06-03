@@ -123,12 +123,12 @@ h5{
 }
 /* Ende Allgemeines Text, Headline & Linkdesign */
 
-/* Design Hobbies */
-.zwischenHobbies{
+/* Design long pages */
+.betweem{
     /* Erstellt Farbige Balken zwsichen den Hobby Artikeln */
     background-color: #dddddd;
 }
-.headlinehobbies{
+.headlinearticles{
     /* Ändert die Hobby Arikel Überschriften */
     font-family: times;
 }
@@ -144,18 +144,13 @@ aside{
     color: black;
 }
 #head{
-    /* Überschrift der Seite */
+    /* header of the page */
     background-color: #dddddd;
     margin: 0 auto;
     text-align: center;
     font-size: 225%;
 }
-#logoXR{
-    /* Postionierung des Bildes und Design */
-    width: 80px;
-    
-}
-/* Design Hobbies Ende */
+/* END design long pages */
 
 /* Design Schule */
 table{
