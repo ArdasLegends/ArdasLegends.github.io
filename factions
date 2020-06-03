@@ -14,15 +14,15 @@
                     <a href="betrieb.html" class="Navi">Rules</a>
                     <div class="drophobbies">
                         <button class="hobbybtn">
-                            <a href="hobbies.html" class="Navi">Factions</a>
+                            <a href="factions.html" class="Navi">Factions</a>
                         </button>
                         <div class="dropcontent">
-                            <a href="hobbies.html#basketball">Gundamar</a>
-                            <a href="hobbies.html#musik_hören">Eregion</a>
-                            <a href="hobbies.html#computer">Reunited Kingdom</a>
-                            <a href="hobbies.html#lesen">Bangad-Minhiriath</a>
-                            <a href="hobbies.html#freunde">Waegmunding</a>
-                            <a href="hobbies.html#tanzen">Dale</a>
+                            <a href="factions.html#avari">Avari</a>
+                            <a href="factions.html#musik_hören">Eregion</a>
+                            <a href="factions.html#computer">Reunited Kingdom</a>
+                            <a href="factions.html#lesen">Bangad-Minhiriath</a>
+                            <a href="factions.html#freunde">Waegmunding</a>
+                            <a href="factions.html#tanzen">Dale</a>
                         </div>
                     </div>
                     <a href="lieblingslinks.html" class="Navi">Claiming Map</a>
