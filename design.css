@@ -51,7 +51,7 @@ header{
     /* Anzeige des Dropcontents wenn hover über Button */
     display: block;
 }
-.hobbybtn{
+.dropheadlinebtn{
     /* Button Hobbies */
     background-color: #cccccc;
     border: none;
