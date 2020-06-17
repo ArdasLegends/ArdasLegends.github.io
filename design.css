@@ -1,0 +1,321 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03.06.2020
+    Author     : Anedhel
+*/
+
+/* overall page design */
+header{
+    text-align: center;
+    text-shadow: 1px 0.5px grey;
+    font-style: italic;
+    word-spacing: 20px;
+    background-color: #022625;
+}
+
+/*dropdown Button*/
+.dropheadline {
+    /* General class of the drop button */
+    position: relative;
+    display: inline-block;
+}
+.dropcontent {
+    /* content of the drop */
+    display: none;
+    position: absolute;
+    width: 270px;
+    margin-right: 250px;
+    background-color: #bbbbbb;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 4;
+    margin-left: -100px
+}
+.dropcontent a {
+    /* links in the drop */
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropcontent a:hover {
+    /* changes of the links in the drop upon hovering over them */
+    background-color: #aaaaaa
+    position: relative;
+    
+}
+.dropheadline:hover .dropheadline {
+    /* changes to the dropdown button upon hover */
+    background-color: #bbbbbb;
+}
+.dropheadline:hover .dropcontent {
+    /* showing of the dropcontent for hovering */
+    display: block;
+}
+.dropheadlinebtn{
+    /* button for the dropdown */
+    background-color: #cccccc;
+    border: none;
+    font-style: italic;
+    word-spacing: 20px;
+    text-shadow: 1px 0.5px grey;
+    font-size: 100%; 
+    font-weight: bold;
+    font-family: times;
+}
+/* End of the button design */
+
+/*Dropdown Button Startseite */
+.dropindex{
+    /* Umliegende Class des Dropbuttons */
+    position: relative;
+    display: inline-block;
+}
+.dropindex:hover .hobbybtn {
+    /* Änderung des Buttons bei hover */
+    background-color: #bbbbbb;
+}
+.dropindex:hover .dropcontent {
+    /* Anzeige des Dropcontents wenn hover über Button */
+    display: block;
+}
+.indexbtn{
+    /* Button Startseite */
+    background-color: #cccccc;
+    border: none;
+    font-style: italic;
+    word-spacing: 20px;
+    text-shadow: 1px 0.5px grey;
+    font-size: 100%; 
+    font-weight: bold;
+    font-family: times;
+}
+/* END design mainpage button */
+main{
+    text-align: center; 
+    font-family:times;
+    font-size: 125%;
+}
+body{
+    margin: 0px;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.title-block {
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+.block-text {
+    font-size: 120%;
+}
+
+.block {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 35px;
+    width: 71%;
+    margin: 0 auto;
+    margin-bottom: 1.5%;
+    margin-top: 1.5%;
+    z-index: 1;
+    box-shadow: 8px 8px 20px 8px rgba(0,0,0,0.33);
+}
+
+.inline {
+    display: inline-block;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+footer{
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    font-style:italic;
+    font-size:120%;
+    text-shadow: 1px 0.5px grey;
+    background-color: #7F6B55;
+}
+/* Ende Allgemeines Seitendesign */
+
+/* Allgemeines Text, Headline & Linkdesign */
+a{
+    text-decoration: underline;
+    text-decoration-color: grey;
+}
+h1{
+    font-family: vivaldi;
+}
+h3{
+    font-family: vivaldi;
+    font-size: 200%;
+}
+
+h4{
+    font-family: vivaldi;
+    font-size: 180%;
+    margin-bottom: 5px;
+}
+
+h5{
+    font-family: vivaldi;
+}
+
+.staff_names {
+    font-weight: bold;
+}
+
+/* Ende Allgemeines Text, Headline & Linkdesign */
+
+/* Design long pages */
+.between{
+    /* Erstellt Farbige Balken zwsichen den Hobby Artikeln */
+    background-color: #AE9374;
+    height: 2px;
+}
+.headlinearticles{
+    /* Ändert die Hobby Arikel Überschriften */
+    font-family: times;
+}
+aside{
+    /* Setze die Seitliche Navigation */
+    background-color: #ffe9e9;
+    position: fixed;
+    border: #eed8d8;
+    border-style:groove;
+    flex-direction: column;
+}
+.invisLink{
+    /* macht die zwischentext Links weniger auffällig */
+    color: black;
+}
+#head{
+    /* header of the page */
+    position: relative;
+
+    background-color: #AE9374;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 225%;
+    margin-top: 1.5%;
+    width: 200px;
+    margin-bottom: -60px;
+    padding: 6px;
+    z-index: 2;
+    box-shadow: 4px 8px 16px 0px rgba(0,0,0,0.4);
+}
+
+/* END design long pages */
+
+/* Design Schule */
+table{
+    font-family: Times;
+    border: solid 5px #bbbbbb;
+    margin: auto;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    border-spacing: 0;
+    border-top: none;
+}
+th,td{
+    width: 30px;
+    height: 30px;
+    border-left: solid #333333 1px;
+    border-top: solid #333333 1px;
+}
+.colone{
+    border-right: solid #333333 2px;
+}
+.rowone{
+    border-bottom: solid #333333 2px;
+}
+.colsix{
+    border-right: solid #333333 1px;
+}
+.rownine{
+    border-bottom: solid #333333 1px;
+}
+caption{
+    border: solid #bbbbbb 5px;
+    border-bottom: none;
+}
+iframe{
+    margin-top: 25px;
+}
+/* Ende Design Schule */
+
+/* Design Impressum*/
+#impressum{
+    font-family: times;
+}
+/* Design Impressum*/
+
+/* Design Namarie */
+#namarie{
+    font-size: 175%; 
+    font-family:"Kunstler Script";
+}
+/* Design Namarie */
+
+/* Design Lieblingslinks */
+.links ul{
+    width: 218px;
+    margin: 0 auto;
+    padding: 0;
+}
+/* Ende Design Lieblingslinks */
+
+/*Design Tengwar*/
+figcaption{
+    font-family: italic;
+    text-shadow: calc;
+    font-size: medium;
+}
+/*Ende Design Tengwar*/
+
+/* Design Startseite */
+.invisLinkS{
+    /* macht die zwischentext Links weniger auffällig */
+    color: black;
+    text-decoration: none; 
+}
+/* Ende Design Startseite */
+
+/* Design Über Mich */
+a.invisLinkP {
+  text-decoration:none;
+  position:relative;
+  display:block;
+}
+a.invisLinkP:hover {
+  border:none;
+}
+a.invisLinkP img {
+  border:none;
+}
+a.invisLinkP span {
+  visibility:hidden;
+  position:absolute;
+  top:20px;
+  left:0;
+}
+a.invisLinkP:hover span {
+  visibility:visible;
+}
+.invisLinkP{
+    /* macht die zwischentext Links weniger auffällig */
+    color: black;
+    text-decoration: none; 
+}
+
+/* Ende Design Über Mich */
