@@ -14,7 +14,7 @@ header{
     text-shadow: 1px 0.5px grey;
     font-style: italic;
     word-spacing: 20px;
-    background-color: #cccccc;
+    background-color: #022625;
 }
 
 /*dropdown Button*/
@@ -27,10 +27,13 @@ header{
     /* content of the drop */
     display: none;
     position: absolute;
+    width: 270px;
+    margin-right: 250px;
     background-color: #bbbbbb;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    z-index: 4;
+    margin-left: -100px
 }
 .dropcontent a {
     /* links in the drop */
@@ -42,6 +45,8 @@ header{
 .dropcontent a:hover {
     /* changes of the links in the drop upon hovering over them */
     background-color: #aaaaaa
+    position: relative;
+    
 }
 .dropheadline:hover .dropheadline {
     /* changes to the dropdown button upon hover */
@@ -97,13 +102,49 @@ main{
 }
 body{
     margin: 0px;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
 }
+.title-block {
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+.block-text {
+    font-size: 120%;
+}
+
+.block {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 35px;
+    width: 71%;
+    margin: 0 auto;
+    margin-bottom: 1.5%;
+    margin-top: 1.5%;
+    z-index: 1;
+    box-shadow: 8px 8px 20px 8px rgba(0,0,0,0.33);
+}
+
+.inline {
+    display: inline-block;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
 footer{
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    margin-top: 20px;
     text-align: center;
     font-style:italic;
     font-size:120%;
     text-shadow: 1px 0.5px grey;
-    background-color: #cccccc;
+    background-color: #7F6B55;
 }
 /* Ende Allgemeines Seitendesign */
 
@@ -117,16 +158,30 @@ h1{
 }
 h3{
     font-family: vivaldi;
+    font-size: 200%;
 }
+
+h4{
+    font-family: vivaldi;
+    font-size: 180%;
+    margin-bottom: 5px;
+}
+
 h5{
     font-family: vivaldi;
 }
+
+.staff_names {
+    font-weight: bold;
+}
+
 /* Ende Allgemeines Text, Headline & Linkdesign */
 
 /* Design long pages */
 .between{
     /* Erstellt Farbige Balken zwsichen den Hobby Artikeln */
-    background-color: #dddddd;
+    background-color: #AE9374;
+    height: 2px;
 }
 .headlinearticles{
     /* Ändert die Hobby Arikel Überschriften */
@@ -138,6 +193,7 @@ aside{
     position: fixed;
     border: #eed8d8;
     border-style:groove;
+    flex-direction: column;
 }
 .invisLink{
     /* macht die zwischentext Links weniger auffällig */
@@ -145,11 +201,20 @@ aside{
 }
 #head{
     /* header of the page */
-    background-color: #dddddd;
+    position: relative;
+
+    background-color: #AE9374;
     margin: 0 auto;
     text-align: center;
     font-size: 225%;
+    margin-top: 1.5%;
+    width: 200px;
+    margin-bottom: -60px;
+    padding: 6px;
+    z-index: 2;
+    box-shadow: 4px 8px 16px 0px rgba(0,0,0,0.4);
 }
+
 /* END design long pages */
 
 /* Design Schule */
