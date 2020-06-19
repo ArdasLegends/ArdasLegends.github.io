@@ -14,7 +14,7 @@ header{
     text-shadow: 1px 0.5px grey;
     font-style: italic;
     word-spacing: 20px;
-    background-color: #12615E;
+    background-color: #17202a;
 }
 
 /*dropdown Button*/
@@ -22,6 +22,9 @@ header{
     /* General class of the drop button */
     position: relative;
     display: inline-block;
+    padding: 16px;
+    padding-right: 4%;
+    padding-left: 4%;
 }
 .dropcontent {
     /* content of the drop */
@@ -33,7 +36,7 @@ header{
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 4;
-    margin-left: -100px
+    margin-left: -100px;
 }
 .dropcontent a {
     /* links in the drop */
@@ -44,7 +47,7 @@ header{
 }
 .dropcontent a:hover {
     /* changes of the links in the drop upon hovering over them */
-    background-color: #aaaaaa
+    background-color: #aaaaaa;
     position: relative;
     
 }
@@ -58,9 +61,10 @@ header{
 }
 .dropheadlinebtn{
     /* button for the dropdown */
-    background-color: #cccccc;
+    background-color: #17202a;
     border: none;
     font-style: italic;
+    color: #fff;
     word-spacing: 20px;
     text-shadow: 1px 0.5px grey;
     font-size: 100%; 
@@ -144,15 +148,16 @@ footer{
     font-style:italic;
     font-size:120%;
     text-shadow: 1px 0.5px grey;
-    background-color: #022625;
+    background-color: #17202a;
 }
 /* Ende Allgemeines Seitendesign */
 
 /* Allgemeines Text, Headline & Linkdesign */
 a{
-    text-decoration: underline;
-    text-decoration-color: grey;
+    text-decoration: none;
+    color: white;
 }
+
 h1{
     font-family: vivaldi;
 }
