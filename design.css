@@ -261,54 +261,39 @@ aside a:hover {
 
 /*Design Hoverable Sidenav*/
 #Sidenav a {
-    position: fixed; /*Position fixed*/
-    left: -80px;    /*having them outside the screen, so they are hidden normally*/
-    transition: 0.3;    /*adds transition to the hover*/
-    padding: 15px;  
-    width: 100px;
-    text-decoration: none;
-    font-size: 20px;
-    color: white;
-    border-radius: 0 5px 5px 0; /*rounded corners on top and bottom right*/
+  position: fixed; /* Position them relative to the browser window */
+  left: -80px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  width: 100px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
 }
 
-#Sidenav a:hover {
-    left: 0; /*moves them into screen when hovered*/
+#mySidenav a:hover {
+  left: 0; /* On mouse-over, make the elements appear as they should */
 }
+
+/* The about link: 20px from the top with a green background */
 #explanationhover {
-    top:20px
-    background-color: #17202A; /*Header Background Color*/
+  top: 20px;
+  background-color: #17202A;
 }
+
 #generalhover {
-    top:80px
-    background: #17202A /*Header Background Color*/
+  top: 80px;
+  background-color: #17202A; /* Blue */
 }
+
 #pvphover {
-    top:140px
-    background: #17202A /*Header Background Color*/
+  top: 140px;
+  background-color: #17202A; /* Red */
 }
+
 #gearhover {
-    top:200px
-    background: #17202A /*Header Background Color*/
-}
-#huntinghover {
-    top:260px
-    background: #17202A /*Header Background Color*/
-}
-#generalwarhover {
-    top:320px
-    background: #17202A /*Header Background Color*/
-}
-#civilwarhover {
-    top:380px
-    background: #17202A /*Header Background Color*/
-}
-#expansionhover {
-    top:440px
-    background: #17202A /*Header Background Color*/
-}
-#discordhover {
-    top:500px
-    background: #17202A /*Header Background Color*/
+  top: 200px;
+  background-color: #17202A
 }
 /*End Hoverable Sidenav*/
