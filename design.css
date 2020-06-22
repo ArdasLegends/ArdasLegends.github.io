@@ -277,7 +277,7 @@ aside a:hover {
 }
 #explanationhover {
     top:20px
-    background: #17202A /*Header Background Color*/
+    background-color: #17202A; /*Header Background Color*/
 }
 #generalhover {
     top:80px
