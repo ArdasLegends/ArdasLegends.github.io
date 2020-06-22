@@ -296,4 +296,29 @@ aside a:hover {
   top: 200px;
   background-color: #17202A
 }
+
+#huntinghover {
+  top: 260px;
+  background-color: #17202A
+}
+
+#generalwarhover {
+  top: 320px;
+  background-color: #17202A
+}
+
+#civilwarhover {
+  top: 380px;
+  background-color: #17202A
+}
+
+#expansionhover {
+  top: 440px;
+  background-color: #17202A
+}
+
+#discordhover {
+  top: 500px;
+  background-color: #17202A
+}
 /*End Hoverable Sidenav*/
