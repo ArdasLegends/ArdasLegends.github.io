@@ -5,7 +5,7 @@ and open the template in the editor.
 */
 /* 
     Created on : 03.06.2020
-    Author     : Anedhel
+    Authors     : Anedhel & Jukoz
 */
 
 /* overall page design */
@@ -253,105 +253,8 @@ aside a:hover {
 
 /* END design long pages */
 
-/* Design Schule */
-table{
-    font-family: Times;
-    border: solid 5px #bbbbbb;
-    margin: auto;
-    margin-bottom: 25px;
-    margin-top: 25px;
-    border-spacing: 0;
-    border-top: none;
-}
-th,td{
-    width: 30px;
-    height: 30px;
-    border-left: solid #333333 1px;
-    border-top: solid #333333 1px;
-}
-.colone{
-    border-right: solid #333333 2px;
-}
-.rowone{
-    border-bottom: solid #333333 2px;
-}
-.colsix{
-    border-right: solid #333333 1px;
-}
-.rownine{
-    border-bottom: solid #333333 1px;
-}
-caption{
-    border: solid #bbbbbb 5px;
-    border-bottom: none;
-}
-iframe{
-    margin-top: 25px;
-}
-/* Ende Design Schule */
-
 /* Design Impressum*/
 #impressum{
     font-family: times;
 }
 /* Design Impressum*/
-
-/* Design Namarie */
-#namarie{
-    font-size: 175%; 
-    font-family:"Kunstler Script";
-}
-/* Design Namarie */
-
-/* Design Lieblingslinks */
-.links ul{
-    width: 218px;
-    margin: 0 auto;
-    padding: 0;
-}
-/* Ende Design Lieblingslinks */
-
-/*Design Tengwar*/
-figcaption{
-    font-family: italic;
-    text-shadow: calc;
-    font-size: medium;
-}
-/*Ende Design Tengwar*/
-
-/* Design Startseite */
-.invisLinkS{
-    /* macht die zwischentext Links weniger auffällig */
-    color: black;
-    text-decoration: none; 
-}
-/* Ende Design Startseite */
-
-/* Design Über Mich */
-a.invisLinkP {
-  text-decoration:none;
-  position:relative;
-  display:block;
-}
-a.invisLinkP:hover {
-  border:none;
-}
-a.invisLinkP img {
-  border:none;
-}
-a.invisLinkP span {
-  visibility:hidden;
-  position:absolute;
-  top:20px;
-  left:0;
-}
-a.invisLinkP:hover span {
-  visibility:visible;
-}
-.invisLinkP{
-    /* macht die zwischentext Links weniger auffällig */
-    color: black;
-    text-decoration: none; 
-}
-
-/* Ende Design Über Mich */
