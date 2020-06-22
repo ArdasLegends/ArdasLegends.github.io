@@ -322,3 +322,18 @@ aside a:hover {
   background-color: #17202A
 }
 /*End Hoverable Sidenav*/
+
+/*Download Button*/
+.downloadbutton {
+  background-color: #17202A;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 5px;
+}
+/*End Download Button*/
