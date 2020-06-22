@@ -275,4 +275,31 @@ aside a:hover {
 #Sidenav a:hover {
     left: 0; /*moves them into screen when hovered*/
 }
+#explanationhover {
+    top:20px
+    background-color: #17202a /*Header Background Color*/
+#generalhover {
+    top:80px
+    background-color: #17202a /*Header Background Color*/
+#pvphover {
+    top:140px
+    background-color: #17202a /*Header Background Color*/
+#gearhover {
+    top:200px
+    background-color: #17202a /*Header Background Color*/
+#huntinghover {
+    top:260px
+    background-color: #17202a /*Header Background Color*/
+#generalwarhover {
+    top:320px
+    background-color: #17202a /*Header Background Color*/
+#civilwarhover {
+    top:380px
+    background-color: #17202a /*Header Background Color*/
+#expansionhover {
+    top:440px
+    background-color: #17202a /*Header Background Color*/
+#discordhover {
+    top:500px
+    background-color: #17202a /*Header Background Color*/
 /*End Hoverable Sidenav*/
