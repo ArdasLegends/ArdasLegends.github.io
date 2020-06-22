@@ -278,47 +278,47 @@ aside a:hover {
 
 /* The about link: 20px from the top with a green background */
 #explanationhover {
-  top: 20px;
+  top: 140px;
   background-color: #17202A;
 }
 
 #generalhover {
-  top: 80px;
+  top: 200px;
   background-color: #17202A; /* Blue */
 }
 
 #pvphover {
-  top: 140px;
+  top: 280px;
   background-color: #17202A; /* Red */
 }
 
 #gearhover {
-  top: 200px;
+  top: 340px;
   background-color: #17202A
 }
 
 #huntinghover {
-  top: 260px;
+  top: 400px;
   background-color: #17202A
 }
 
 #generalwarhover {
-  top: 320px;
+  top: 480px;
   background-color: #17202A
 }
 
 #civilwarhover {
-  top: 380px;
+  top: 560px;
   background-color: #17202A
 }
 
 #expansionhover {
-  top: 440px;
+  top: 640px;
   background-color: #17202A
 }
 
 #discordhover {
-  top: 500px;
+  top: 720px;
   background-color: #17202A
 }
 /*End Hoverable Sidenav*/
