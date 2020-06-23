@@ -210,26 +210,7 @@ h5{
     /* Ändert die Hobby Arikel Überschriften */
     font-family: times;
 }
-aside{
-    /* Setze die Seitliche Navigation */
-    background-color: #bbb;
-    position: fixed;
-    border: #17202a;
-    border-style:groove;
-    flex-direction: column;
-    margin-left: 10px;
-    overflow-y: scroll;
-}
 
-aside a {
-    display: block;
-    padding: 4px;
-    margin: 0px;
-}
-
-aside a:hover {
-    background-color: #aaa;
-}
 
 .invisLink{
     /* macht die zwischentext Links weniger auffällig */
@@ -243,7 +224,7 @@ aside a:hover {
     margin: 0 auto;
     text-align: center;
     font-size: 225%;
-    margin-top: 1.5%;
+    margin-top: 1%;
     width: 200px;
     margin-bottom: -2.5%;
     padding: 6px;
@@ -260,9 +241,18 @@ aside a:hover {
 /* End Design Impressum*/
 
 /*Design Hoverable Sidenav*/
+
+.sidenav {
+    height: 500px;
+    widht: 150px;
+    overflow-y: scroll;
+    position: absolute;
+}
+
 #Sidenav a {
-  position: fixed; /* Position them relative to the browser window */
-  left: -80px; /* Position them outside of the screen */
+   /* Position them relative to the browser window */
+  position: relative;
+  left: -70px; /* Position them outside of the screen */
   transition: 0.3s; /* Add transition on hover */
   padding: 15px; /* 15px padding */
   width: 100px; /* Set a specific width */
