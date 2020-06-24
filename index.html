@@ -11,6 +11,7 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="design.css">
         <link rel="shortcut icon" href="ArdasLegendsLogo.ico" type="image/x-icon"> 
+        <script src="arda-script.js"></script>
     </head>
     <body>
         <header>
@@ -100,6 +101,39 @@ and open the template in the editor.
             <br>
         </header>
     <main>
+        
+        <div id="slider">
+            <input type="radio" name="gaga" id="slide1" checked>
+            <input type="radio" name="gaga" id="slide2">
+            <input type="radio" name="gaga" id="slide3">
+            <div id="slides">
+                <div id="overflow">
+                    <div class="inner">
+                        <div class="slide slide_1">
+                            <div class="slide-content">
+                                <img src="img/slide1.png">
+                            </div>
+                        </div>
+                        <div class="slide slide_2">
+                            <div class="slide-content">
+                                <img src="img/slide2.png">
+                            </div>
+                        </div>
+                        <div class="slide slide_3">
+                            <div class="slide-content">
+                                <img src="img/slide3.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="bullets">
+                    <label for="slide1"></label>
+                    <label for="slide2"></label>
+                    <label for="slide3"></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="block">
             <h3 class="title-block">
             Home Page
