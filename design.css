@@ -172,18 +172,23 @@ header{
     width: 16px;
     height: 16px;
     border-radius: 100%;
-    background-color: #ddd;
+    background-color: #ccc;
     margin: 0 10px;
 }
 #bullets label:hover {
-    background-color: #eee;
+    background-color: #888;
     transition: 0.3s;
 }
-#slide1:checked ~ #bullets label:nth-child(1),
-#slide2:checked ~ #bullets label:nth-child(2),
-#slide3:checked ~ #bullets label:nth-child(3) {
-    background-color: #fff;
+
+#slide1:checked ~ #bullets label.lab1,
+#slide2:checked ~ #bullets label.lab2,
+#slide3:checked ~ #bullets label.lab3 {
+    background-color: green;
 }
+input:checked {
+    background-color: cyan;
+}
+
 /*END CAROUSEL!!!*/
 /*Main Page*/
 main{
@@ -213,7 +218,7 @@ html {
 }
 
 .block {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.4);
     padding: 35px;
     width: 70%;
     margin: 0 auto;
@@ -285,7 +290,35 @@ h5{
     /* Ändert die Hobby Arikel Überschriften */
     font-family: times;
 }
-
+.artcl-container{
+    width: 95%;
+    height: 500px;
+    margin: auto;
+    padding: 10px;
+}
+.artcl-left {
+    margin-left: 5%;
+    margin-top: 3%;
+    width: 55%;
+    float: left;
+    font-size: 24px;
+}
+.artcl-right {
+    width: 30%;
+    height: auto;
+    float: right;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.infos {
+    width: 100%;
+    float: left; 
+}
+.infos p {
+    float: left;
+    margin-left: 15px;
+    margin-top: 10px;
+}
 
 .invisLink{
     /* macht die zwischentext Links weniger auffällig */
